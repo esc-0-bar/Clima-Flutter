@@ -1,21 +1,47 @@
 # Clima ☁
 
-## What I will create
+A cross platform app to get current weather at geolocation and by searching.
 
-We’re going to make a weather app inspired by the beautiful designs made by [Olia Gozha](https://dribbble.com/shots/4663154-). By the end of the module, you'll be able to find out the live weather data in the current location of the device as well as the weather for any city you can think of!
+## Tech
+
+Clima uses a number of tech to work properly:
+
+* [FLUTTER] - Google’s UI toolkit for building beautiful, natively compiled applications.
+
+
+And of course Clima is open source with a public repository on GitHub.
+
+## Download
+
+| Version | Android | iOS |
+| --- | --- | --- |
+| 1.0.0 | [APK][1] | IPA |
+
+
+### Screenshot GIF
 
 ![Finished App](https://github.com/londonappbrewery/Images/blob/master/clima-demo.gif)
 
-## What I have learned
+### Development
 
-- How to use Dart to perform asynchronous tasks.
-- Understand async and await.
-- Learn about Futures and how to work with them.
-- How to network with the Dart http package.
-- What APIs are and how to use them to get data from the internet.
-- What JSONs are and how to parse them using the Dart convert package.
-- How to pass data forwards and backwards between screens using the Navigator.
-- How to handle exceptions in Dart using try/catch/throw.
-- Learn about the lifecycle of Stateful Widgets and how to override them.
-- How to use the Geolocator package to get live location data for both iOS and Android.
-- How to use the TextField Widget to take user input.
+Want to contribute? Great! :heart:
+
+Fork the repo make changes and make pull requests.
+
+### Todos
+
+ - Make a option to see weather data by hours.
+ - Add a history of full week's weather.
+
+License
+----
+
+Apache License 2.0
+
+![](screenshots/LICENSE.png)
+
+
+**Free Software, Hell Yeah!**
+
+[//]: #DownloadLinks
+[1]: https://github.com/i-am-ahad/Clima-Flutter/releases/download/v1.0.0/clima.apk
